@@ -12,7 +12,7 @@ repo to local storage:
 
     $ git clone https://github.com/sandbbk/humanize_calc.git
     
-and inport `from humanize_calc import calc` in Your code.
+and import `from humanize_calc import calc` in Your code.
 Or run it like this:
 
     $ python3 humanize_calc.py
