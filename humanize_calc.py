@@ -30,7 +30,7 @@ def calc(string=None):
                        'mathematical expression (left part not equals to right part), or bit-depth of operands or \n'
                        'result greater than three: \n\n')
 
-    if string == 'exit()':
+    if string in ('exit()', 'exit', 'q', '-q', 'quit'):
         exit(0)
 
     if len(set(string).difference(allchars)) != 0:
